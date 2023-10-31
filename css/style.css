@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+/* ===================nav start===================== */
+.logo {
+    height: 40px;
+}
+
+.nav-link {
+    /* color: var(--Primary, #5E3BEE); */
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    margin-right: 43px;
+}
+
+.nav-link:hover {
+    color: #5E3BEE;
+}
+
+.contract_btn {
+    color: var(--Primary, #5E3BEE);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    padding: 18px 20px;
+    border-radius: 6px;
+    border: 1.333px solid var(--Primary, #5E3BEE);
+}
+
+.contract_btn:hover {
+    background-color: #5E3BEE;
+    color: white;
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 21.333px;
+}
+
+/* =====================nav end============================ */
+/* =====================banner start============================ */
+#banner {
+    background-color: #F5FCFF;
+}
+
+.left_banner {
+    padding-top: 235px;
+    padding-bottom: 318px;
+}
+
+.left_banner h6 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+}
+
+.left_banner .banner_h1 {
+    height: 172px;
+    align-self: stretch;
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 74.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 89.6px */
+    margin-top: 21.33px;
+}
+
+.left_banner span {
+    color: #5E3BEE;
+}
+
+.left_banner .banner_pera {
+    width: 621.333px;
+    height: 73.333px;
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+    margin-top: 21.33px;
+    margin-bottom: 54px;
+}
+
+.tuch_btn {
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    padding: 18px 25px;
+    background-color: #5E3BEE;
+    border: 1.33px solid transparent;
+    border-radius: 6px;
+}
+
+.tuch_btn:hover {
+    background-color: #FFF;
+    color: #5E3BEE;
+    border: 1.33px solid #5E3BEE;
+    transition: .3s;
+}
+
+.banner_img {
+    padding: 134px 0;
+}
+
+/* =======================banner end=================== */
+/* ===============My Skills section start================= */
+.skill_pera {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+    padding-top: 150px;
+}
+
+.skill_h2 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 76.8px */
+    margin-top: 22px;
+}
+
+.div_box {
+    background-color: #F5FCFF;
+    padding: 32px;
+    border-bottom: 5px solid transparent;
+    margin-top: 107px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+
+}
+
+.div_box:hover {
+    border-bottom: 5px solid #5E3BEE;
+    border-radius: 10px;
+    transform: .4s;
+}
+
+.skill_box_logo {
+    height: 54px;
+    width: 54px;
+}
+
+.skill_box_h3 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 44.8px */
+    margin-top: 32px;
+}
+
+.skill_box_pera {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    height: 128px;
+    width: 341px;
+}
+
+/* ===============My Skills section end================= */
+/* ===============About Me start================= */
+.about_left {
+    width: 813.333px;
+    height: 996px;
+    padding: 14px 0;
+    /* margin-bottom: 134px; */
+}
+
+.about_text {
+    color: var(--Heading-color, #282938);
+
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+    padding-top: 320px;
+}
+
+.about_h1 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 76.8px */
+    margin-top: 10px;
+}
+
+.about_pera {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 821.333px;
+    margin-top: 32px;
+}
+
+.about_pera span {
+    margin-top: 35px;
+    display: block;
+}
+
+/* .about_right{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+} */
+/* ===============About Me end================= */
+/* ===============My Portfolio start================= */
+.title_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dribble_icon {
+    /* height: 32px;
+    width: 32px; */
+    padding-right: 16px;
+    font-size: 32px;
+}
+
+.dribble_btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    padding: 21px;
+    background-color: #E62872;
+    border-radius: 10px;
+    border: none;
+}
+
+.card_img {
+    width: 100%;
+    height: 400px;
+
+}
+
+.card_text {
+    padding: 32px;
+}
+
+.card_h5 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 44.8px */
+    margin-top: 32px;
+}
+
+.card_pera {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    width: 490px;
+    height: 64px;
+
+}
+
+.card_btn {
+    border: none;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 28px */
+    margin-right: 16px;
+    background-color: white;
+    border-bottom: 1.5px solid #5E3BEE;
+    margin-top: 30px;
+
+
+}
+
+.card_arrow {
+    padding-left: 16px;
+}
+
+.card_box {
+    background: #FFF;
+    box-shadow: 0px 5.33333px 16px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 107px;
+    margin-bottom: 107px;
+
+}
+
+/* ===============My Portfolio end================= */
+/* ===============Customer testimonials start================= */
+#testimonials {
+    background-color: #F5FCFF;
+}
+
+.green_star {
+    color: #006B6A;
+}
+
+.ratting_box_pera {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+    width: 470px;
+    height: 96px;
+    margin-top: 42px;
+}
+
+.rate_img {
+    width: 74.667px;
+    height: 74.667px;
+}
+
+.ratting_name {
+    margin-left: 22px;
+}
+
+.ratting_flex {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 42px;
+}
+
+.text_element {
+    padding: 42px;
+    border: 2px solid #006B6A;
+    border-radius: 8px;
+
+}
+
+.ratting_box {
+    padding: 107px 0;
+}
+
+/* ===============Customer testimonialso end================= */
+/* ===============Contact me start================= */
+.contact_title {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.get_in_touch {
+    color: var(--Heading-color, #282938);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+}
+
+.contact_me {
+    color: var(--Heading-color, #282938);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 76.8px */
+    margin-top: 21px;
+}
+
+.contact_pera {
+    color: var(--Body, #1C1E53);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+    margin-top: 32px;
+}
+
+.main_contact_form {
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.lavel_padding {
+    padding: 12px 0;
+}
+
+.form {
+
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+}
+
+.form_box input {
+    width: 496px;
+    height: 64px;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form_box {}
+
+.right_form {
+    margin-right: -64px;
+}
+
+.form-label {
+    padding: 12px 0;
+}
+
+#validationCustom04 {
+    height: 64px;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+
+}
+
+.msg_box {
+    width: 100%;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+    height: 240px;
+    margin-top: 75PX;
+    outline: none;
+}
+
+.checkbox {
+    padding: 12px 0;
+}
+
+.Submit {
+    padding: 18px 52px;
+    color: #5E3BEE;
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 1.3px solid #5E3BEE;
+    transition: .4s;
+}
+
+.submit_btn {
+    text-align: center;
+    padding: 32px 0 150px 0;
+}
+
+.Submit:hover {
+    color: #FFF;
+    background-color: #5E3BEE;
+    border: 1.3px solid transparent;
+}
+
+/* ===============Contact me end================= */
+/* ===============footer start================= */
+#footer {
+    background-color: #F5FCFF;
+}
+
+.social_icons_all {
+    margin: 16px;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.bottom_left p {
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 28px */
+}
+
+.bottom_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0;
+}
+
+.bottom_right ul li {
+    list-style: none;
+    margin-left: 32px;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 28px */
+}
+
+.bottom_right ul {
+    display: flex;
+}
+
+.bottom {
+    margin-top: 70px;
+    border-top: 1.33px solid rgba(40, 41, 56, 0.55);
+}
+
+/* ===============footer end================= */

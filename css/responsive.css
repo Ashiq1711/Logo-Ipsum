@@ -1,0 +1,289 @@
+@media (min-width:320px) and (max-width:575px) {
+    .logo {
+        height: 30px;
+    }
+    .nav-link {
+        font-size: 15.333px;
+    }
+    .contract_btn {
+        font-size: 15.333px;
+        padding: 10px 12px;
+
+    }
+    .left_banner {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .left_banner h6 {
+        font-size: 18.333px;
+     
+    }
+    .left_banner .banner_h1 {
+        font-size: 28.667px;
+
+    }
+    .left_banner .banner_pera {
+        width: auto;
+        height: 73.333px;
+        color: var(--Body, #1C1E53);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: -52.67px;
+        margin-bottom: 22px;
+    }
+    .tuch_btn {
+        color: var(--White, #FFF);
+        font-family: Roboto;
+        font-size: 14.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 10px 15px;
+        background-color: #5E3BEE;
+        border: 1.33px solid transparent;
+        border-radius: 6px;
+    }
+    .banner_img {
+        padding: 16px 0;
+        width: 100%;
+    }
+    .skill_pera {
+        color: var(--Heading-color, #282938);
+        font-family: Roboto;
+        font-size: 16.333px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        padding-top: 70px;
+    }
+    .skill_h2 {
+        color: var(--Heading-color, #282938);
+        font-family: Roboto;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-top: 20px;
+    }
+    .div_box {
+        background-color: #F5FCFF;
+        padding: 14px;
+        border-bottom: 5px solid transparent;
+        margin-top: 45px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .skill_box_pera {
+        color: var(--Body, #1C1E53);
+        font-family: Roboto;
+        font-size: 17.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        height: 123px;
+        width: 100%;
+    }
+    .about_left {
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+    }
+    .about_text {
+        padding-top: 80px;
+    }
+    .about_h1 {
+        font-size: 40px;
+    }
+    .about_pera {
+        color: var(--Body, #1C1E53);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 100%;
+        margin-top: 32px;
+    }
+    .skill_h2 {
+        font-size: 33px;
+        margin-top: 16px;
+    }
+    .title_flex {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }.dribble_btn {
+        padding: 12px;
+        border-radius: 10px;
+    }
+    .dribble_icon {
+        padding-right: 3px;
+        font-size: 24px;
+    }
+    .card_img {
+        width: 100%;
+        height: auto;
+    }
+    .card_h5 {
+        color: var(--Heading-color, #282938);
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-top: -18px;
+    }
+    .card_text {
+        padding: 20px;
+    }
+    .card_pera {
+        color: var(--Body, #1C1E53);
+        font-family: Roboto;
+        font-size: 15.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 100%;
+        height: 45px;
+    }
+    .card_box {
+        background: #FFF;
+        box-shadow: 0px 5.33333px 16px 0px rgba(0, 0, 0, 0.15);
+        margin-top: 50px;
+        margin-bottom: 14px;
+    }
+    .skill_h2 {
+        font-size: 27px;
+        margin-top: 18px;
+    }
+    .text_element {
+        padding: 20px;
+        border: 2px solid #006B6A;
+        border-radius: 8px;
+    }
+    .ratting_box_pera {
+        color: var(--Body, #1C1E53);
+        font-family: Roboto;
+        font-size: 15.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 100%;
+        height: 94px;
+        margin-top: 15px;
+    }
+    .ratting_box {
+        padding: 20px 0;
+    }
+    .get_in_touch {
+        font-size: 18.333px;
+    }
+    .contact_me {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    .contact_title {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .contact_pera {
+        color: var(--Body, #1C1E53);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: 10px;
+    }
+    .form_box input {
+        width: 100%;
+        height: 38px;
+        border: 1px solid #5E3BEE;
+        border-radius: 8px;
+        outline: none;
+    }
+    .main_contact_form {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .right_form {
+        margin-right: 0;
+    }
+    #validationCustom04 {
+        height: 42px;
+        border: 1px solid #5E3BEE;
+        border-radius: 8px;
+    }
+    .msg_box {
+        width: 100%;
+        border: 1px solid #5E3BEE;
+        border-radius: 8px;
+        height: 88px;
+        margin-top: 24PX;
+        outline: none;
+    }
+    .Submit {
+        padding: 12px 30px;
+        color: #5E3BEE;
+        background-color: #FFF;
+        border-radius: 8px;
+        border: 1.3px solid #5E3BEE;
+        transition: .4s;
+    }
+    .submit_btn {
+        text-align: center;
+        padding: 16px 0 50px 0;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .social_icons_all {
+        margin: 16px;
+        width: 32px;
+        height: 24px;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+    .bottom {
+        margin-top: 20px;
+        border-top: 1.33px solid rgba(40, 41, 56, 0.55);
+    }
+    .bottom_flex {
+        display: flex;
+        justify-content: flex-end;
+        padding: 32px 0;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: baseline;
+    }
+    .bottom_left p {
+        margin-right: 28px;
+    }
+    .bottom_right ul li {
+        list-style: none;
+        margin-left: 32px;
+        color: var(--Black, #000);
+        font-family: Roboto;
+        font-size: 14.667px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-right: 16px;
+    }
+    .bottom_right ul {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
